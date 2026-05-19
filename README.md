@@ -59,17 +59,6 @@ The agent converges from **random exploration** to a **structured delivery strat
 
 ---
 
-## How to Run
-
-1. Open `notebooks/logistics_rl_agent_EN.ipynb` in [Google Colab](https://colab.research.google.com/)
-2. Run all cells top to bottom (**Runtime → Run all**)
-3. Watch the agent move step-by-step in real time
-4. Review KPI results and evaluation charts at the end
-
-No local setup required — everything runs in Colab.
-
----
-
 ## Agent Architecture
 
 The agent follows a **perception → decision → action → memory** loop aligned with autonomous agent design principles:
@@ -79,14 +68,6 @@ The agent follows a **perception → decision → action → memory** loop align
 - **Memory:** records every episode's reward, steps, deliveries, and dangerous zones
 - **Execution:** moves on the grid, updates Q-table via Bellman equation
 
-## Internship Context
 
-This notebook covers **Week 1–2** of the internship work plan:
-
-- ✅ Literature concepts implemented: perception, memory, execution loop
-- ✅ Baseline ABM simulation established
-- ✅ KPI metrics defined and measured (reward, deliveries, efficiency)
-- ✅ Comparative analysis: untrained vs trained agent performance
-- 🔲 Next step: extend with LLM-based reasoning layer (Chain-of-Thought / InteraSSort framework)
 
 ---
