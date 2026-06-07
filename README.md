@@ -1,5 +1,5 @@
 [README (3).md](https://github.com/user-attachments/files/27989980/README.3.md)
-# 🟡 Logistics RL Agent with Memory
+# Logistics RL Agent with Memory
 
 
 ## Overview
